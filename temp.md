@@ -16,8 +16,8 @@
 
 <table>
     <th>
-        <td></td>
-        <td></td>
+        <td>속성</td>
+        <td>설명</td>
     </th> 
     <tr>
         <td></td>
