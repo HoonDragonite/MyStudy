@@ -4,8 +4,6 @@
 
 > block, inline, inline-block, none
 
-<br>
-
 ## block 요소
 
 - 항상 새로운 라인에서 시작
@@ -24,21 +22,18 @@
 - **한 줄에 표현되면서 width, height, margin 지정 가능**
 - content의 너비만큼 가로폭을 차지
 
-<br>
-
 ---
-
-<br>
 
 ## 관련 속성
 
-### visibility 
+### visibility  
 
 - 요소를 보이게 하느냐 안 보이게 하느냐
 - display: none;은 요소의 공간을 없애지만
 - visibility: hidden;은 요소를 보이지만 않게 함
 
-### opacity
+### opacity  
+
 - 투명도를 정의한다
 - 0.0~1.0
 - 0.0 은 투명, 1.0은 불투명
