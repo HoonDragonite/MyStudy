@@ -1,12 +1,12 @@
 # Box Model
 
-## 모든 HTML 요소는 Box 형태의 영역을 갖고 있다.  
+모든 HTML 요소는 Box 형태의 영역을 갖고 있다.  
+이 Box는 콘텐트(Content), 패딩(Padding), 테두리(Border), 마진(Margin)으로 구성된다.  
+바깥부터 MBP
 
-### 이 Box는 콘텐트(Content), 패딩(Padding), 테두리(Border), 마진(Margin)으로 구성된다
+![box-model](../Image/box-model.png)
 
-![box-model](./Image/box-model.png)
-
-### 출처 : <https://poiemaweb.com/css3-box-model>
+출처 : <https://poiemaweb.com/css3-box-model>
 
 ---
 
