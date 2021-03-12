@@ -46,3 +46,6 @@ print(booksan.items())
 print(booksan.get("C"))
 print(booksan.get("ABC", "그런 키 값은 없다"))
 
+# d.update() 값을 수정하고, 없으면 추가한다.
+d = {"주장":"채치수"}
+d.update({"주장":"송태섭", "감독":"안선생님"}) #{'주장': '송태섭', '감독': '안선생님'}
