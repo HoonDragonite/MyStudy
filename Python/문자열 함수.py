@@ -11,7 +11,8 @@ print("{0:>10}".format("right"))
 print("{0:^10}".format("center"))
 print("{0:*^10}".format("center"))
 
-# replace()
+# replace(a, b) a를 모두 b로
+# replace(a, b, 1) 1번째 a를 b로
 replaceTest = "철수 철수 철1수 짱구 짱구"
 print("원래 값 : " + replaceTest)
 replaceResult = replaceTest.replace("철수", "유리")
@@ -23,11 +24,12 @@ print("원래 값 : " + replaceTest)
 # count()
 print("***ab*c*".count("*"))
 
-# find() 문자가 처음 나온 위치
+# find(a) a가 처음 나온 위치
 print("12345".find("3"))
 
-# join() 문자 사이사이에 문자를 삽입
+# b.join(a) a를 b구분자를 더해 합친다
 print(",".join("abcde"))
+print(",".join(['a', 'b', 'cde'])) # "a,b,cde"
 
 # UpperCase -> LowerCase
 print("ABC".lower());
