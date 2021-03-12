@@ -18,7 +18,7 @@ print(booksan[:2])
 # 리스트 연산
 print(booksan + [" vs "] + neungnam)
 
-# 리스트의 길이
+# len() 리스트의 길이
 print(len(booksan))
 
 # 리스트 요소 삭제
